@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Testimonial</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body class="bg-white">
+
+    <!-- PAGE WRAPPER -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-10 py-16 border">
+
+      <!-- CARD -->
+      <div
+        class="relative bg-[#F4F4FD] rounded-2xl mx-auto
+               max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl
+               p-6 sm:p-8 lg:p-16"
+      >
+
+        <!-- PROFILE IMAGE -->
+        <div
+          class="mx-auto mb-6
+                 size-32 sm:size-36 md:size-40
+                 rounded-full overflow-hidden
+                 lg:absolute lg:right-0 lg:-top-20 lg:size-56
+                 xl:size-64"
+        >
+          <img 
+            src="./assets/client.png"
+            alt="Client"
+            class="h-full w-full object-cover"
+          />
+        </div>
+
+        <!-- NAME + RATING -->
+        <div
+          class="bg-[#002852] text-white rounded-xl p-5 text-center
+                 sm:p-6
+                 lg:absolute lg:left-0 lg:-top-16 lg:w-80
+                 xl:w-96 xl:rounded-tr-[80px]"
+        >
+          <h1 class="text-xl sm:text-2xl font-semibold">
+            Maria Latin
+          </h1>
+
+          <div class="flex justify-center gap-1 mt-4">
+            <img src="./assets/Star.svg" alt="star" />
+            <img src="./assets/Star.svg" alt="star" />
+            <img src="./assets/Star.svg" alt="star" />
+            <img src="./assets/Star.svg" alt="star" />
+            <img src="./assets/Star.svg" alt="star" />
+          </div>
+        </div>
+
+        <!-- DECORATIVE SHAPE -->
+        <div
+          class="hidden lg:block absolute
+                 -left-10 top-20
+                 h-32 w-24 xl:h-40 xl:w-32
+                 rotate-[-20deg] bg-[#004A98]
+                 -z-10"
+        ></div>
+
+        <!-- TEXT CONTENT -->
+        <div
+          class="mt-6 sm:mt-8 lg:mt-32
+                 text-center"
+        >
+          <p
+            class="text-base sm:text-lg leading-relaxed
+                   max-w-full sm:max-w-xl md:max-w-2xl
+                   mx-auto"
+          >
+            Choosing this institute was the best decision. The nurturing
+            atmosphere and dynamic curriculum enriched my learning experience.
+            The knowledgeable faculty empowered me to achieve my goals.
+            Truly a top-notch education!
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
